@@ -1,0 +1,44 @@
+header {
+  background-color: #333;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.15);
+  align-items: center;
+}
+
+header nav#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  height: 80px;
+}
+
+header nav#navbar ul.navlist {
+  display: flex;
+  align-items: center;
+
+  list-style: none;
+  gap: 1rem;
+}
+
+header nav#navbar div {
+  display: flex;
+  align-items: center;
+}
+
+header nav#navbar div h1 {
+  text-transform: uppercase;
+}
+
+header nav#navbar ul.navlist a {
+  color: #fff;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+header nav#navbar ul.navlist a:hover {
+  color: #c93636;
+  transition: 0.4s ease-in-out;
+}

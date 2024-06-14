@@ -1,0 +1,18 @@
+
+div#counter button {
+  padding: 8px;
+  background: #888;
+  border: none;
+  border-radius: 0.1rem;
+  margin: 0 2px;
+}
+
+div#counter button:hover{
+  transition:0.4s;
+  background: #555;
+}
+
+div#counter button:active{
+  transition:0.2s;
+  background: #fff;
+}

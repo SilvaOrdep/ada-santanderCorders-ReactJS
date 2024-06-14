@@ -1,0 +1,26 @@
+article#articleBase {
+  display: flex;
+  gap: 1rem;
+}
+
+article#articleBase img {
+  max-width: 230px;
+  width: 40%;
+  height: 140px;
+  border-radius: 0.3rem;
+}
+
+article#articleBase div h2 {
+  margin-bottom: 0.7rem;
+
+}
+article#articleBase div h3 {
+  color: #999;
+  margin-bottom: 0.5rem;
+  font-size:15px;
+  font-weight: normal;
+}
+
+article#articleBase div p {
+  text-align: justify;
+}
